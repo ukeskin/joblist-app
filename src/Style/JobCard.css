@@ -1,0 +1,36 @@
+.Jobs {
+  display: flex;
+  justify-content: space-between;
+}
+.JobCard {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  border: 3px solid #0f4a7c;
+}
+
+.JobCard__Logo {
+  background: #fff;
+  width: 120px;
+}
+.JobCard__Info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.JobCard__Title {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #093052;
+}
+.JobCard__Company {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: rgb(87, 87, 87);
+}
+.JobCard__Location {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #999;
+}
